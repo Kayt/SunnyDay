@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5849C78B201E2F2D00FA6E9E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5849C78A201E2F2D00FA6E9E /* Constants.swift */; };
+		5849C78D201E326100FA6E9E /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5849C78C201E326100FA6E9E /* CurrentWeather.swift */; };
+		5849C7D7201E735100FA6E9E /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5849C7D6201E735100FA6E9E /* Forecast.swift */; };
 		58FF363D2019FA63000D57A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FF363C2019FA63000D57A6 /* AppDelegate.swift */; };
-		58FF363F2019FA63000D57A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FF363E2019FA63000D57A6 /* ViewController.swift */; };
+		58FF363F2019FA63000D57A6 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FF363E2019FA63000D57A6 /* WeatherVC.swift */; };
 		58FF36422019FA63000D57A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FF36402019FA63000D57A6 /* Main.storyboard */; };
 		58FF36442019FA63000D57A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FF36432019FA63000D57A6 /* Assets.xcassets */; };
 		58FF36472019FA63000D57A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FF36452019FA63000D57A6 /* LaunchScreen.storyboard */; };
 		58FF36522019FA64000D57A6 /* SunnyDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FF36512019FA64000D57A6 /* SunnyDayTests.swift */; };
 		58FF365D2019FA64000D57A6 /* SunnyDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FF365C2019FA64000D57A6 /* SunnyDayUITests.swift */; };
+		F4791FE342D9862B4DCD3C93 /* Pods_SunnyDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD6AA4A5C288D633137BA12 /* Pods_SunnyDay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31703C54D1A47E854D0A1E0A /* Pods-SunnyDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunnyDay.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunnyDay/Pods-SunnyDay.release.xcconfig"; sourceTree = "<group>"; };
+		3BD6AA4A5C288D633137BA12 /* Pods_SunnyDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunnyDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5849C78A201E2F2D00FA6E9E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5849C78C201E326100FA6E9E /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		5849C7D6201E735100FA6E9E /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		58FF36392019FA63000D57A6 /* SunnyDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunnyDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FF363C2019FA63000D57A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58FF363E2019FA63000D57A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58FF363E2019FA63000D57A6 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		58FF36412019FA63000D57A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58FF36432019FA63000D57A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58FF36462019FA63000D57A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,7 @@
 		58FF36582019FA64000D57A6 /* SunnyDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnyDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FF365C2019FA64000D57A6 /* SunnyDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunnyDayUITests.swift; sourceTree = "<group>"; };
 		58FF365E2019FA64000D57A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94522D1FAECC538860523601 /* Pods-SunnyDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunnyDay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunnyDay/Pods-SunnyDay.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4791FE342D9862B4DCD3C93 /* Pods_SunnyDay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		257BEA6688F47C1465988162 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94522D1FAECC538860523601 /* Pods-SunnyDay.debug.xcconfig */,
+				31703C54D1A47E854D0A1E0A /* Pods-SunnyDay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		58FF36302019FA63000D57A6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +101,8 @@
 				58FF36502019FA64000D57A6 /* SunnyDayTests */,
 				58FF365B2019FA64000D57A6 /* SunnyDayUITests */,
 				58FF363A2019FA63000D57A6 /* Products */,
+				257BEA6688F47C1465988162 /* Pods */,
+				FED7EFDDA6FD51B5E74A3194 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +120,14 @@
 			isa = PBXGroup;
 			children = (
 				58FF363C2019FA63000D57A6 /* AppDelegate.swift */,
-				58FF363E2019FA63000D57A6 /* ViewController.swift */,
+				58FF363E2019FA63000D57A6 /* WeatherVC.swift */,
 				58FF36402019FA63000D57A6 /* Main.storyboard */,
 				58FF36432019FA63000D57A6 /* Assets.xcassets */,
 				58FF36452019FA63000D57A6 /* LaunchScreen.storyboard */,
 				58FF36482019FA63000D57A6 /* Info.plist */,
+				5849C78A201E2F2D00FA6E9E /* Constants.swift */,
+				5849C78C201E326100FA6E9E /* CurrentWeather.swift */,
+				5849C7D6201E735100FA6E9E /* Forecast.swift */,
 			);
 			path = SunnyDay;
 			sourceTree = "<group>";
@@ -125,6 +150,14 @@
 			path = SunnyDayUITests;
 			sourceTree = "<group>";
 		};
+		FED7EFDDA6FD51B5E74A3194 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BD6AA4A5C288D633137BA12 /* Pods_SunnyDay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58FF36612019FA64000D57A6 /* Build configuration list for PBXNativeTarget "SunnyDay" */;
 			buildPhases = (
+				B731FF5A8AD8B0C7DF3EB254 /* [CP] Check Pods Manifest.lock */,
 				58FF36352019FA63000D57A6 /* Sources */,
 				58FF36362019FA63000D57A6 /* Frameworks */,
 				58FF36372019FA63000D57A6 /* Resources */,
+				3B92D7F295F018706DA0566E /* [CP] Embed Pods Frameworks */,
+				0059A89DFD5EB9C1BC3D3177 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +293,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0059A89DFD5EB9C1BC3D3177 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SunnyDay/Pods-SunnyDay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B92D7F295F018706DA0566E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SunnyDay/Pods-SunnyDay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SunnyDay/Pods-SunnyDay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B731FF5A8AD8B0C7DF3EB254 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SunnyDay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58FF36352019FA63000D57A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58FF363F2019FA63000D57A6 /* ViewController.swift in Sources */,
+				58FF363F2019FA63000D57A6 /* WeatherVC.swift in Sources */,
 				58FF363D2019FA63000D57A6 /* AppDelegate.swift in Sources */,
+				5849C78D201E326100FA6E9E /* CurrentWeather.swift in Sources */,
+				5849C78B201E2F2D00FA6E9E /* Constants.swift in Sources */,
+				5849C7D7201E735100FA6E9E /* Forecast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +506,7 @@
 		};
 		58FF36622019FA64000D57A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94522D1FAECC538860523601 /* Pods-SunnyDay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8PB75F3VS7;
@@ -426,6 +520,7 @@
 		};
 		58FF36632019FA64000D57A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31703C54D1A47E854D0A1E0A /* Pods-SunnyDay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8PB75F3VS7;
@@ -514,6 +609,7 @@
 				58FF36632019FA64000D57A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58FF36642019FA64000D57A6 /* Build configuration list for PBXNativeTarget "SunnyDayTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +618,7 @@
 				58FF36662019FA64000D57A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58FF36672019FA64000D57A6 /* Build configuration list for PBXNativeTarget "SunnyDayUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +627,7 @@
 				58FF36692019FA64000D57A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
